@@ -1,0 +1,19 @@
+{
+  "name": "icecream-sundae",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "cross-env NODE_ENV=production node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^4.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
