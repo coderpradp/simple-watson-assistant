@@ -1,0 +1,6 @@
+applications:
+- name: watson-icecream-sundae
+  command: npm serve
+  path: .
+  memory: 256M
+  instances: 1
